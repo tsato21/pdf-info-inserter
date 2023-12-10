@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Google Apps Script for PDF Info Insertion'
+title: 'PDF Info Insertion'
 ---
 
 ## About this Project
