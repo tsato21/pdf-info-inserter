@@ -23,20 +23,28 @@ This project involves a Google Apps Script that inserts PDF information into a G
 2. Copy the Google Sheet to make your sheet.
 3. **Conduct GAS Authorization**: Access `Initial Setting` Sheet and click the initial setting button. This enables you to go to the authorization page for Google Apps Script.
 
-<div style="margin-left: 30px">
-  <img src="assets/images/initial-setting.png" alt="Image of Initial Setting" width="200" height="100">
-</div>
+  <div style="margin-left: 30px">
+    <img src="assets/images/initial-setting.png" alt="Image of Initial Setting" width="200" height="100">
+  </div>
 
 4. **Customize Constant Variables for Built-in Functions**: Navigate to the Apps Script page and adjust the constant variables to suit your needs.
 
 ## Usage
 
-1. **Open the Google Sheet**: Open the Google Sheet where you want to insert the PDF information.
+1. **Copy the Google Drive Folder URL**: Copy the URL of the Google Drive folder that contains the PDF files.
+  <div style="margin-left: 30px">
+    <img src="assets/images/copy-folder-url.png" alt="Image of Copy Folder URL" width="200" height="100">
+  </div>
+2. **Open the Google Sheet**: Open the Google Sheet where you want to insert the PDF information.
 
-2. **Access the Custom Menu**: Click on the 'Custom Menu' that appears in the menu bar of the Google Sheet. Select 'Insert PDF info into Sheet'.
+3. **Access the Custom Menu**: Click on the 'Custom Menu' that appears in the menu bar of the Google Sheet. Select 'Insert PDF info into Sheet'.
+  <div style="margin-left: 30px">
+    <img src="assets/images/access-custom-menu.png" alt="Image of Access Custom Menu" width="200" height="100">
+  </div>
 
+4. **Display the PDF Information**: The PDF information is displayed in the Google Sheet.
+  <div style="margin-left: 30px">
+    <img src="assets/images/display-pdf-info.png" alt="Image of Display PDF Info" width="200" height="100">
+  </div>
 ## Others
-
-- **Folder URL Input**: A dialog box will appear asking for the Google Drive folder URL. Input the URL of the folder containing the PDF files you want to insert into the sheet.
-
 - **Customization**: You can customize the scripts according to your specific preferences. For example, you can change the name of the sheet where the PDF information is inserted by modifying the `SHEET_NAME` constant.
