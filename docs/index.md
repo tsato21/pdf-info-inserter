@@ -19,15 +19,17 @@ This project involves a Google Apps Script that inserts PDF information into a G
 
 ## Setup
 
-1. **Open Your Google Sheet**: Access <a href="https://docs.google.com/spreadsheets/d/1z1i7ZYgkRRC0WS3xqS3CGh1GJ8iUQWKkcMwbVa3YU6Q/edit#gid=1971008536" target="_blank" rel="noopener noreferrer">Sample Google Sheet</a>.
-2. **Copy Sample Sheet**: Copy the Google Sheet to make your sheet.
-3. **Conduct GAS Authorization**: Click the initial setting button. This enables you to go to the authorization page for Google Apps Script.
-  <div style="margin-left: 30px">
-    <img src="assets/images/initial-setting.png" alt="Image of Initial Setting" width="200" height="100">
-  </div>
-<!-- 4 -->
+<ol>
+  <li><strong>Open Your Google Sheet</strong>: Access <a href="https://docs.google.com/spreadsheets/d/1z1i7ZYgkRRC0WS3xqS3CGh1GJ8iUQWKkcMwbVa3YU6Q/edit#gid=1971008536" target="_blank" rel="noopener noreferrer">Sample Google Sheet</a>.</li>
+  <li><strong>Copy Sample Sheet</strong>: Copy the Google Sheet to make your sheet.</li>
+  <li><strong>Conduct GAS Authorization</strong>: Click the initial setting button. This enables you to go to the authorization page for Google Apps Script.
+    <div style="margin-left: 30px">
+      <img src="assets/images/initial-setting.png" alt="Image of Initial Setting" width="200" height="100">
+    </div>
+  </li>
+  <li><strong>Customize Constant Variables for Built-in Functions</strong>: Navigate to the Apps Script page and adjust the constant variables to suit your needs.</li>
+</ol>
 
-4. **Customize Constant Variables for Built-in Functions**: Navigate to the Apps Script page and adjust the constant variables to suit your needs.
 
 ## Usage
 
