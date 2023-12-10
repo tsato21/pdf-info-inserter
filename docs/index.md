@@ -33,21 +33,24 @@ This project involves a Google Apps Script that inserts PDF information into a G
 
 ## Usage
 
-1. **Copy the Google Drive Folder URL**: Copy the URL of the Google Drive folder that contains the PDF files.
-  <div style="margin-left: 30px">
-    <img src="assets/images/copy-folder-url.png" alt="Image of Copy Folder URL" width="200" height="100">
-  </div>
-<!-- 2 -->
-2. **Open the Google Sheet**: Open the Google Sheet where you want to insert the PDF information.
+<ol>
+  <li><strong>Copy the Google Drive Folder URL</strong>: Copy the URL of the Google Drive folder that contains the PDF files.
+    <div style="margin-left: 30px">
+      <img src="assets/images/copy-folder-url.png" alt="Image of Copy Folder URL" width="200" height="100">
+    </div>
+  </li>
+  <li><strong>Open the Google Sheet</strong>: Open the Google Sheet where you want to insert the PDF information.</li>
+  <li><strong>Access the Custom Menu</strong>: Click on the 'Custom Menu' that appears in the menu bar of the Google Sheet. Select 'Insert PDF info into Sheet'.
+    <div style="margin-left: 30px">
+      <img src="assets/images/access-custom-menu.png" alt="Image of Access Custom Menu" width="200" height="100">
+    </div>
+  </li>
+  <li><strong>Display the PDF Information</strong>: The PDF information is displayed in the Google Sheet.
+    <div style="margin-left: 30px">
+      <img src="assets/images/display-pdf-info.png" alt="Image of Display PDF Info" width="200" height="100">
+    </div>
+  </li>
+</ol>
 
-3. **Access the Custom Menu**: Click on the 'Custom Menu' that appears in the menu bar of the Google Sheet. Select 'Insert PDF info into Sheet'.
-  <div style="margin-left: 30px">
-    <img src="assets/images/access-custom-menu.png" alt="Image of Access Custom Menu" width="200" height="100">
-  </div>
-
-4. **Display the PDF Information**: The PDF information is displayed in the Google Sheet.
-  <div style="margin-left: 30px">
-    <img src="assets/images/display-pdf-info.png" alt="Image of Display PDF Info" width="200" height="100">
-  </div>
 ## Others
 - **Customization**: You can customize the scripts according to your specific preferences. For example, you can change the name of the sheet where the PDF information is inserted by modifying the `SHEET_NAME` constant.
