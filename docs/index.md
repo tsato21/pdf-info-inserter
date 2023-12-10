@@ -22,11 +22,9 @@ This project involves a Google Apps Script that inserts PDF information into a G
 1. **Open Your Google Sheet**: Access <a href="https://docs.google.com/spreadsheets/d/1z1i7ZYgkRRC0WS3xqS3CGh1GJ8iUQWKkcMwbVa3YU6Q/edit#gid=1971008536" target="_blank" rel="noopener noreferrer">Sample Google Sheet</a>.
 2. **Copy Sample Sheet**: Copy the Google Sheet to make your sheet.
 3. **Conduct GAS Authorization**: Click the initial setting button. This enables you to go to the authorization page for Google Apps Script.
-
   <div style="margin-left: 30px">
     <img src="assets/images/initial-setting.png" alt="Image of Initial Setting" width="200" height="100">
   </div>
-
 <!-- 4 -->
 4. **Customize Constant Variables for Built-in Functions**: Navigate to the Apps Script page and adjust the constant variables to suit your needs.
 
@@ -36,6 +34,7 @@ This project involves a Google Apps Script that inserts PDF information into a G
   <div style="margin-left: 30px">
     <img src="assets/images/copy-folder-url.png" alt="Image of Copy Folder URL" width="200" height="100">
   </div>
+<!-- 2 -->
 2. **Open the Google Sheet**: Open the Google Sheet where you want to insert the PDF information.
 
 3. **Access the Custom Menu**: Click on the 'Custom Menu' that appears in the menu bar of the Google Sheet. Select 'Insert PDF info into Sheet'.
