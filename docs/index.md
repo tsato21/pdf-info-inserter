@@ -26,6 +26,7 @@ This project involves a Google Apps Script that inserts PDF information into a G
     <img src="assets/images/initial-setting.png" alt="Image of Initial Setting" width="200" height="100">
   </div>
 <!-- 4 -->
+
 4. **Customize Constant Variables for Built-in Functions**: Navigate to the Apps Script page and adjust the constant variables to suit your needs.
 
 ## Usage
