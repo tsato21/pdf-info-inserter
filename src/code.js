@@ -17,12 +17,15 @@ function onOpen() {
 }
 
 function outputFileNameURLInsertion() {
-  const FOLDER_URL = Browser.inputBox('Please input folder URL', Browser.Buttons.OK_CANCEL);
+  const FOLDER_URL = Browser.inputBox(
+    'Please input folder URL',
+    Browser.Buttons.OK_CANCEL
+  );
 
-  if (FOLDER_URL === 'cancel'){
+  if (FOLDER_URL === 'cancel') {
     Browser.msgBox('Inputting folder URL was cancelled');
     return;
-  } else if (FOLDER_URL === ''){
+  } else if (FOLDER_URL === '') {
     Browser.msgBox('Folder URL was not input.');
     return;
   }
@@ -45,15 +48,15 @@ function outputFileNameURLInsertion() {
     let fileName = targetFile.getName();
     let fileUrl = targetFile.getUrl();
 
-    fileInfos.push(['=HYPERLINK("'+fileUrl+'","'+fileName+'")']);
+    fileInfos.push(['=HYPERLINK("' + fileUrl + '","' + fileName + '")']);
   }
-  let lastRow = targetSheet.getLastRow()-1;
-  if (lastRow>0){
+  let lastRow = targetSheet.getLastRow() - 1;
+  if (lastRow > 0) {
     let previousDataRange = targetSheet.getRange(2, 1, lastRow, 1);
     previousDataRange.clearContent();
   }
   let fileNum = fileInfos.length;
-  if (fileNum === 0){
+  if (fileNum === 0) {
     Browser.msgBox('Any PDF files are not in the target folder.');
   }
   let targetRange = targetSheet.getRange(2, 1, fileNum, 1);
